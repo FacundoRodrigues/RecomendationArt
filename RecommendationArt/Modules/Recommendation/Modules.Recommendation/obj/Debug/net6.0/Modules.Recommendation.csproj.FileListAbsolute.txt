@@ -1,0 +1,12 @@
+C:\Repositories\RecommendationArt\RecommendationArt\Modules\Recommendation\Modules.Recommendation\bin\Debug\net6.0\Modules.Recommendation.deps.json
+C:\Repositories\RecommendationArt\RecommendationArt\Modules\Recommendation\Modules.Recommendation\bin\Debug\net6.0\Modules.Recommendation.dll
+C:\Repositories\RecommendationArt\RecommendationArt\Modules\Recommendation\Modules.Recommendation\bin\Debug\net6.0\ref\Modules.Recommendation.dll
+C:\Repositories\RecommendationArt\RecommendationArt\Modules\Recommendation\Modules.Recommendation\bin\Debug\net6.0\Modules.Recommendation.pdb
+C:\Repositories\RecommendationArt\RecommendationArt\Modules\Recommendation\Modules.Recommendation\obj\Debug\net6.0\Modules.Recommendation.csproj.AssemblyReference.cache
+C:\Repositories\RecommendationArt\RecommendationArt\Modules\Recommendation\Modules.Recommendation\obj\Debug\net6.0\Modules.Recommendation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repositories\RecommendationArt\RecommendationArt\Modules\Recommendation\Modules.Recommendation\obj\Debug\net6.0\Modules.Recommendation.AssemblyInfoInputs.cache
+C:\Repositories\RecommendationArt\RecommendationArt\Modules\Recommendation\Modules.Recommendation\obj\Debug\net6.0\Modules.Recommendation.AssemblyInfo.cs
+C:\Repositories\RecommendationArt\RecommendationArt\Modules\Recommendation\Modules.Recommendation\obj\Debug\net6.0\Modules.Recommendation.csproj.CoreCompileInputs.cache
+C:\Repositories\RecommendationArt\RecommendationArt\Modules\Recommendation\Modules.Recommendation\obj\Debug\net6.0\Modules.Recommendation.dll
+C:\Repositories\RecommendationArt\RecommendationArt\Modules\Recommendation\Modules.Recommendation\obj\Debug\net6.0\ref\Modules.Recommendation.dll
+C:\Repositories\RecommendationArt\RecommendationArt\Modules\Recommendation\Modules.Recommendation\obj\Debug\net6.0\Modules.Recommendation.pdb
