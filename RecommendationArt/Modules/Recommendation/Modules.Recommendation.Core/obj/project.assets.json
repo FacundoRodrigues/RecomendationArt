@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Repositories\\RecommendationArt\\RecommendationArt\\Modules\\Modules.Recommendation\\Modules.Recommendation.csproj",
-      "projectName": "Modules.Recommendation",
-      "projectPath": "C:\\Repositories\\RecommendationArt\\RecommendationArt\\Modules\\Modules.Recommendation\\Modules.Recommendation.csproj",
+      "projectUniqueName": "C:\\Repositories\\RecommendationArt\\RecommendationArt\\Modules\\Recommendation\\Modules.Recommendation.Core\\Modules.Recommendation.Core.csproj",
+      "projectName": "Modules.Recommendation.Core",
+      "projectPath": "C:\\Repositories\\RecommendationArt\\RecommendationArt\\Modules\\Recommendation\\Modules.Recommendation.Core\\Modules.Recommendation.Core.csproj",
       "packagesPath": "C:\\Users\\facur\\.nuget\\packages\\",
-      "outputPath": "C:\\Repositories\\RecommendationArt\\RecommendationArt\\Modules\\Modules.Recommendation\\obj\\",
+      "outputPath": "C:\\Repositories\\RecommendationArt\\RecommendationArt\\Modules\\Recommendation\\Modules.Recommendation.Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\facur\\AppData\\Roaming\\NuGet\\NuGet.Config",

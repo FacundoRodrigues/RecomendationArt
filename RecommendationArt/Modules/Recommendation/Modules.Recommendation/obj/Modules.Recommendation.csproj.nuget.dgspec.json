@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Repositories\\RecommendationArt\\RecommendationArt\\Modules\\Modules.Recommendation.Core\\Modules.Recommendation.Core.csproj": {}
+    "C:\\Repositories\\RecommendationArt\\RecommendationArt\\Modules\\Recommendation\\Modules.Recommendation\\Modules.Recommendation.csproj": {}
   },
   "projects": {
-    "C:\\Repositories\\RecommendationArt\\RecommendationArt\\Modules\\Modules.Recommendation.Core\\Modules.Recommendation.Core.csproj": {
+    "C:\\Repositories\\RecommendationArt\\RecommendationArt\\Modules\\Recommendation\\Modules.Recommendation\\Modules.Recommendation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Repositories\\RecommendationArt\\RecommendationArt\\Modules\\Modules.Recommendation.Core\\Modules.Recommendation.Core.csproj",
-        "projectName": "Modules.Recommendation.Core",
-        "projectPath": "C:\\Repositories\\RecommendationArt\\RecommendationArt\\Modules\\Modules.Recommendation.Core\\Modules.Recommendation.Core.csproj",
+        "projectUniqueName": "C:\\Repositories\\RecommendationArt\\RecommendationArt\\Modules\\Recommendation\\Modules.Recommendation\\Modules.Recommendation.csproj",
+        "projectName": "Modules.Recommendation",
+        "projectPath": "C:\\Repositories\\RecommendationArt\\RecommendationArt\\Modules\\Recommendation\\Modules.Recommendation\\Modules.Recommendation.csproj",
         "packagesPath": "C:\\Users\\facur\\.nuget\\packages\\",
-        "outputPath": "C:\\Repositories\\RecommendationArt\\RecommendationArt\\Modules\\Modules.Recommendation.Core\\obj\\",
+        "outputPath": "C:\\Repositories\\RecommendationArt\\RecommendationArt\\Modules\\Recommendation\\Modules.Recommendation\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\facur\\AppData\\Roaming\\NuGet\\NuGet.Config",

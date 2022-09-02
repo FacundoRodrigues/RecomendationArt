@@ -9,11 +9,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{2D6C
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Recommendation", "Recommendation", "{4DA10ED2-4A70-4E2C-A80C-7E4A7C30EDF0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modules.Recommendation", "Modules\Modules.Recommendation\Modules.Recommendation.csproj", "{44D9EF56-C01D-4CBC-81AB-173F1AC2A8BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modules.Recommendation", "Modules\Recommendation\Modules.Recommendation\Modules.Recommendation.csproj", "{44D9EF56-C01D-4CBC-81AB-173F1AC2A8BE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modules.Recommendation.Core", "Modules\Modules.Recommendation.Core\Modules.Recommendation.Core.csproj", "{85B6B5C4-3355-4772-92DB-CBBD84400C01}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modules.Recommendation.Core", "Modules\Recommendation\Modules.Recommendation.Core\Modules.Recommendation.Core.csproj", "{85B6B5C4-3355-4772-92DB-CBBD84400C01}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modules.Recommendation.Infrastructure", "Modules\Modules.Recommendation.Infrastructure\Modules.Recommendation.Infrastructure.csproj", "{51858A02-92C1-4966-AC1B-D1062E772A99}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modules.Recommendation.Infrastructure", "Modules\Recommendation\Modules.Recommendation.Infrastructure\Modules.Recommendation.Infrastructure.csproj", "{51858A02-92C1-4966-AC1B-D1062E772A99}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Host", "Host", "{EF5EC322-4650-4B73-82BA-CFD99585DFE7}"
 EndProject

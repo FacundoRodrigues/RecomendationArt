@@ -7,4 +7,4 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Modules.Recommendation.Infrastructure
-build_property.ProjectDir = C:\Repositories\RecommendationArt\RecommendationArt\Modules\Modules.Recommendation.Infrastructure\
+build_property.ProjectDir = C:\Repositories\RecommendationArt\RecommendationArt\Modules\Recommendation\Modules.Recommendation.Infrastructure\

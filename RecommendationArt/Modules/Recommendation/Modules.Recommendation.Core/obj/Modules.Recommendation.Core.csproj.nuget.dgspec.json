@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Repositories\\RecommendationArt\\RecommendationArt\\Modules\\Modules.Recommendation.Infrastructure\\Modules.Recommendation.Infrastructure.csproj": {}
+    "C:\\Repositories\\RecommendationArt\\RecommendationArt\\Modules\\Recommendation\\Modules.Recommendation.Core\\Modules.Recommendation.Core.csproj": {}
   },
   "projects": {
-    "C:\\Repositories\\RecommendationArt\\RecommendationArt\\Modules\\Modules.Recommendation.Infrastructure\\Modules.Recommendation.Infrastructure.csproj": {
+    "C:\\Repositories\\RecommendationArt\\RecommendationArt\\Modules\\Recommendation\\Modules.Recommendation.Core\\Modules.Recommendation.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Repositories\\RecommendationArt\\RecommendationArt\\Modules\\Modules.Recommendation.Infrastructure\\Modules.Recommendation.Infrastructure.csproj",
-        "projectName": "Modules.Recommendation.Infrastructure",
-        "projectPath": "C:\\Repositories\\RecommendationArt\\RecommendationArt\\Modules\\Modules.Recommendation.Infrastructure\\Modules.Recommendation.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Repositories\\RecommendationArt\\RecommendationArt\\Modules\\Recommendation\\Modules.Recommendation.Core\\Modules.Recommendation.Core.csproj",
+        "projectName": "Modules.Recommendation.Core",
+        "projectPath": "C:\\Repositories\\RecommendationArt\\RecommendationArt\\Modules\\Recommendation\\Modules.Recommendation.Core\\Modules.Recommendation.Core.csproj",
         "packagesPath": "C:\\Users\\facur\\.nuget\\packages\\",
-        "outputPath": "C:\\Repositories\\RecommendationArt\\RecommendationArt\\Modules\\Modules.Recommendation.Infrastructure\\obj\\",
+        "outputPath": "C:\\Repositories\\RecommendationArt\\RecommendationArt\\Modules\\Recommendation\\Modules.Recommendation.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\facur\\AppData\\Roaming\\NuGet\\NuGet.Config",
