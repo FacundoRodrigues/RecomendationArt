@@ -7,8 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Controller\" />
-    <Folder Include="Extensions\" />
+    <Compile Remove="Controller\**" />
+    <Compile Remove="Extensions\**" />
+    <EmbeddedResource Remove="Controller\**" />
+    <EmbeddedResource Remove="Extensions\**" />
+    <None Remove="Controller\**" />
+    <None Remove="Extensions\**" />
   </ItemGroup>
 
 </Project>
