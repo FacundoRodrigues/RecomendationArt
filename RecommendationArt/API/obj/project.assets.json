@@ -72,6 +72,19 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "Shared.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Shared.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Shared.Infrastructure.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -200,10 +213,16 @@
         "swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "Shared.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../Shared/Shared.Infrastructure/Shared.Infrastructure.csproj",
+      "msbuildProject": "../Shared/Shared.Infrastructure/Shared.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Shared.Infrastructure >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
   },
@@ -233,7 +252,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Repositories\\RecommendationArt\\RecommendationArt\\Shared\\Shared.Infrastructure\\Shared.Infrastructure.csproj": {
+              "projectPath": "C:\\Repositories\\RecommendationArt\\RecommendationArt\\Shared\\Shared.Infrastructure\\Shared.Infrastructure.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
