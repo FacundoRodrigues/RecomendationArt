@@ -27,3 +27,8 @@ C:\Repositories\RecommendationArt\RecommendationArt\API\obj\Debug\net6.0\API.dll
 C:\Repositories\RecommendationArt\RecommendationArt\API\obj\Debug\net6.0\ref\API.dll
 C:\Repositories\RecommendationArt\RecommendationArt\API\obj\Debug\net6.0\API.pdb
 C:\Repositories\RecommendationArt\RecommendationArt\API\obj\Debug\net6.0\API.genruntimeconfig.cache
+C:\Repositories\RecommendationArt\RecommendationArt\API\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Repositories\RecommendationArt\RecommendationArt\API\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Repositories\RecommendationArt\RecommendationArt\API\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Repositories\RecommendationArt\RecommendationArt\API\bin\Debug\net6.0\Modules.Recommendation.dll
+C:\Repositories\RecommendationArt\RecommendationArt\API\bin\Debug\net6.0\Modules.Recommendation.pdb

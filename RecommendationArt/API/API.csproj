@@ -11,6 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Modules\Recommendation\Modules.Recommendation\Modules.Recommendation.csproj" />
     <ProjectReference Include="..\Shared\Shared.Infrastructure\Shared.Infrastructure.csproj" />
   </ItemGroup>
 
