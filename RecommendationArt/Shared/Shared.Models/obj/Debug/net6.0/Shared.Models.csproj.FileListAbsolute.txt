@@ -2,7 +2,6 @@ C:\Repositories\RecommendationArt\RecommendationArt\Shared\Shared.Models\bin\Deb
 C:\Repositories\RecommendationArt\RecommendationArt\Shared\Shared.Models\bin\Debug\net6.0\Shared.Models.dll
 C:\Repositories\RecommendationArt\RecommendationArt\Shared\Shared.Models\bin\Debug\net6.0\ref\Shared.Models.dll
 C:\Repositories\RecommendationArt\RecommendationArt\Shared\Shared.Models\bin\Debug\net6.0\Shared.Models.pdb
-C:\Repositories\RecommendationArt\RecommendationArt\Shared\Shared.Models\obj\Debug\net6.0\Shared.Models.csproj.AssemblyReference.cache
 C:\Repositories\RecommendationArt\RecommendationArt\Shared\Shared.Models\obj\Debug\net6.0\Shared.Models.GeneratedMSBuildEditorConfig.editorconfig
 C:\Repositories\RecommendationArt\RecommendationArt\Shared\Shared.Models\obj\Debug\net6.0\Shared.Models.AssemblyInfoInputs.cache
 C:\Repositories\RecommendationArt\RecommendationArt\Shared\Shared.Models\obj\Debug\net6.0\Shared.Models.AssemblyInfo.cs

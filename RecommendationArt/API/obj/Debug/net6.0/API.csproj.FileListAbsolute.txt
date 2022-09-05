@@ -10,6 +10,8 @@ C:\Repositories\RecommendationArt\RecommendationArt\API\bin\Debug\net6.0\Microso
 C:\Repositories\RecommendationArt\RecommendationArt\API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Repositories\RecommendationArt\RecommendationArt\API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Repositories\RecommendationArt\RecommendationArt\API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Repositories\RecommendationArt\RecommendationArt\API\bin\Debug\net6.0\Shared.Infrastructure.dll
+C:\Repositories\RecommendationArt\RecommendationArt\API\bin\Debug\net6.0\Shared.Infrastructure.pdb
 C:\Repositories\RecommendationArt\RecommendationArt\API\obj\Debug\net6.0\API.csproj.AssemblyReference.cache
 C:\Repositories\RecommendationArt\RecommendationArt\API\obj\Debug\net6.0\API.GeneratedMSBuildEditorConfig.editorconfig
 C:\Repositories\RecommendationArt\RecommendationArt\API\obj\Debug\net6.0\API.AssemblyInfoInputs.cache
@@ -25,5 +27,3 @@ C:\Repositories\RecommendationArt\RecommendationArt\API\obj\Debug\net6.0\API.dll
 C:\Repositories\RecommendationArt\RecommendationArt\API\obj\Debug\net6.0\ref\API.dll
 C:\Repositories\RecommendationArt\RecommendationArt\API\obj\Debug\net6.0\API.pdb
 C:\Repositories\RecommendationArt\RecommendationArt\API\obj\Debug\net6.0\API.genruntimeconfig.cache
-C:\Repositories\RecommendationArt\RecommendationArt\API\bin\Debug\net6.0\Shared.Infrastructure.dll
-C:\Repositories\RecommendationArt\RecommendationArt\API\bin\Debug\net6.0\Shared.Infrastructure.pdb

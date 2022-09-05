@@ -1,17 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Microsoft.AspNetCore.Mvc;
 
 namespace Modules.Recommendation.Controllers
 {
     [ApiController]
-    [Route("/api/catalog/[controller]")]
+    [Route("/api/recommedations/[controller]")]
     internal class RecommendationController : ControllerBase
     {
         [HttpGet]
-        public async Task<IActionResult> GetAllAsync()
+        public async Task<IActionResult> GetRecommedationsAsync()
         {
             return Ok();
         }
