@@ -32,3 +32,6 @@ C:\Repositories\RecommendationArt\RecommendationArt\API\bin\Debug\net6.0\Microso
 C:\Repositories\RecommendationArt\RecommendationArt\API\bin\Debug\net6.0\Newtonsoft.Json.dll
 C:\Repositories\RecommendationArt\RecommendationArt\API\bin\Debug\net6.0\Modules.Recommendation.dll
 C:\Repositories\RecommendationArt\RecommendationArt\API\bin\Debug\net6.0\Modules.Recommendation.pdb
+C:\Repositories\RecommendationArt\RecommendationArt\API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Repositories\RecommendationArt\RecommendationArt\API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Repositories\RecommendationArt\RecommendationArt\API\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
