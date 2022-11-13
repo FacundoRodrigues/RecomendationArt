@@ -8,7 +8,7 @@ namespace Modules.Recommendation.Infrastructure.Extensions
 {
     public static class ServiceCollectionExtensions
     {
-        public static IServiceCollection AddCatalogInfrastructure(this IServiceCollection services, IConfiguration config)
+        public static IServiceCollection AddRecommendationInfrastructure(this IServiceCollection services, IConfiguration config)
         {
             services
                 .AddDatabaseContext<RecommendationDbContext>(config)

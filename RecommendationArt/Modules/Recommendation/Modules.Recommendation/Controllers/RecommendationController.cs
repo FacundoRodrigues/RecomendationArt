@@ -4,7 +4,7 @@ namespace Modules.Recommendation.Controllers
 {
     [ApiController]
     [Route("/api/recommedations/[controller]")]
-    internal class RecommendationController : ControllerBase
+    public class RecommendationController : ControllerBase
     {
         [HttpGet]
         public async Task<IActionResult> GetRecommedationsAsync()

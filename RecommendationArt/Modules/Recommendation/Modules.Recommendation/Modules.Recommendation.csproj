@@ -8,15 +8,17 @@
 
   <ItemGroup>
     <Compile Remove="Controller\**" />
-    <Compile Remove="Extensions\**" />
     <EmbeddedResource Remove="Controller\**" />
-    <EmbeddedResource Remove="Extensions\**" />
     <None Remove="Controller\**" />
-    <None Remove="Extensions\**" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Modules.Recommendation.Core\Modules.Recommendation.Core.csproj" />
+    <ProjectReference Include="..\Modules.Recommendation.Infrastructure\Modules.Recommendation.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

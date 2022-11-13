@@ -1,4 +1,5 @@
 ﻿using Microsoft.OpenApi.Models;
+using Modules.Recommendation.Extensions;
 using Shared.Infrastructure.Extensions;
 
 public class Startup
@@ -16,6 +17,7 @@ public class Startup
         services.AddControllers();
         //services.AddEndpointsApiExplorer();
 
+        services.AddRecommendationModule(Configuration);
         services.AddSharedInfrastructure(Configuration);
         services.AddSwaggerGen(c =>
         {
