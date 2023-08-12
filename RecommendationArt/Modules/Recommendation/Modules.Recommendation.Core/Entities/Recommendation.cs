@@ -17,6 +17,12 @@
         {
             //TODO: agregar Ardalis.GuardClauses
 
+            Update(title, url, trueRating, jokeRating, description, platform, occasion, userId);
+            CreatedDate = createdDate;
+        }
+
+        public void Update(string title, string url, double trueRating, double jokeRating, string description, string platform, string occasion, int userId)
+        {
             Title = title;
             Url = url;
             TrueRating = trueRating;
@@ -25,7 +31,6 @@
             Platform = platform;
             Occasion = occasion;
             UserId = userId;
-            CreatedDate = createdDate;
         }
     }
 }
