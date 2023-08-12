@@ -26,7 +26,7 @@ namespace Shared.Infrastructure.Extensions
 
         private static IServiceCollection AddSSQL<T>(this IServiceCollection services, string connectionString) where T : DbContext
         {
-            services.AddDbContext<T>(m => m.UseSqlServer(connectionString, e => e.MigrationsAssembly("API")));
+            services.AddDbContext<T>(m => m.UseSqlServer(connectionString, e => e.MigrationsAssembly(typeof(T).Assembly.FullName)));
             using var scope = services.BuildServiceProvider().CreateScope();
             var dbContext = scope.ServiceProvider.GetRequiredService<T>();
             dbContext.Database.Migrate();

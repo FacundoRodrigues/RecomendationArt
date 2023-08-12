@@ -7,7 +7,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{75D1D1AB-3A6
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{2D6CF501-37CC-42B0-AF67-FB1C76508EF4}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Recommendations", "Recommendations", "{4DA10ED2-4A70-4E2C-A80C-7E4A7C30EDF0}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Recommendation", "Recommendation", "{4DA10ED2-4A70-4E2C-A80C-7E4A7C30EDF0}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modules.Recommendation", "Modules\Recommendation\Modules.Recommendation\Modules.Recommendation.csproj", "{44D9EF56-C01D-4CBC-81AB-173F1AC2A8BE}"
 EndProject
