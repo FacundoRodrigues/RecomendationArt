@@ -10,6 +10,5 @@
         public string Platform { get; set; }
         public string Occasion { get; set; }
         public int UserId { get; set; }
-        public DateTime CreatedDate { get; set; }
     }
 }

@@ -13,7 +13,7 @@
         public int UserId { get; protected set; }
         public DateTime CreatedDate { get; protected set; }
 
-        public Recommendation(string title, string url, double trueRating, double jokeRating, string description, string platform, int userId, DateTime createdDate)
+        public Recommendation(string title, string url, double trueRating, double jokeRating, string description, string platform, string occasion, int userId, DateTime createdDate)
         {
             //TODO: agregar Ardalis.GuardClauses
 
@@ -23,6 +23,7 @@
             JokeRating = jokeRating;
             Description = description;
             Platform = platform;
+            Occasion = occasion;
             UserId = userId;
             CreatedDate = createdDate;
         }

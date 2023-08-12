@@ -41,7 +41,7 @@ namespace Modules.Recommendation.Controllers
 
         [HttpPost]
         [Route("/recommedations")]
-        public async Task<IActionResult> CreateRecommedationAsync(CreateRecommendationDto recommendation)
+        public async Task<IActionResult> CreateRecommedationAsync([FromBody] CreateRecommendationDto recommendation)
         {
             var request = new CreateRecommendationRequest
             {
@@ -60,5 +60,10 @@ namespace Modules.Recommendation.Controllers
 
             return Ok(response.Recommendation);
         }
+
+        //TODO
+        //1- agregar edicion
+        //2- agregar guards
+        //3-agregar middleware para loguear
     }
 }
