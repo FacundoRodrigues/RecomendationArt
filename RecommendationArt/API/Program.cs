@@ -1,12 +1,32 @@
+using Modules.Recommendation.Extensions;
+using Shared.Infrastructure.Extensions;
+
 var builder = WebApplication.CreateBuilder(args);
 
-var startup = new Startup(builder.Configuration);
+// Add services to the container.
 
-startup.ConfigureServices(builder.Services);
+builder.Services.AddControllers();
+// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
+var config = builder.Configuration;
+
+builder.Services.AddRecommendationModule(config);
+builder.Services.AddSharedInfrastructure(config);
 
 var app = builder.Build();
 
-startup.Configure(app, app.Environment);
+// Configure the HTTP request pipeline.
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
+
+app.UseHttpsRedirection();
+
+app.UseAuthorization();
 
 app.MapControllers();
 
