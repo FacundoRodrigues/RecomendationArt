@@ -15,29 +15,13 @@ namespace Modules.Recommendation.Core.Features.CreateRecommendation
 
         public async Task<CreateRecommendationResponse> Handle(CreateRecommendationRequest request, CancellationToken cancellationToken)
         {
-            try
-            {
-                var recommendation = new Entities.Recommendation(request.Title,
-    request.Url,
-    request.TrueRating,
-    request.JokeRating,
-    request.Description,
-    request.Platform,
-    request.Occasion,
-    request.UserId,
-    request.CreatedDate);
+            var recommendation = new Entities.Recommendation(request.Title, request.Url, request.TrueRating, request.JokeRating, request.Description, request.Platform, request.Occasion, request.UserId, request.CreatedDate);
 
-                _context.Recommendations.Add(recommendation);
+            _context.Recommendations.Add(recommendation);
 
-                await _context.SaveChangesAsync(cancellationToken);
+            await _context.SaveChangesAsync(cancellationToken);
 
-                return new CreateRecommendationResponse { Recommendation = recommendation.ToModel() };
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine(ex.ToString());
-                throw;
-            }
+            return new CreateRecommendationResponse { Recommendation = recommendation.ToModel() };
         }
     }
 }
