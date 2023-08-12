@@ -25,6 +25,8 @@ namespace Modules.Recommendation.Controllers
 
             var response = await _mediator.Send(request);
 
+            throw new Exception();
+
             return Ok(response.Recommendations);
         }
 
@@ -64,6 +66,5 @@ namespace Modules.Recommendation.Controllers
         //TODO
         //1- agregar edicion
         //2- agregar guards
-        //3-agregar middleware para loguear
     }
 }

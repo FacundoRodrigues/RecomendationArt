@@ -1,3 +1,4 @@
+using API.Middlewares;
 using Modules.Recommendation.Extensions;
 using Shared.Infrastructure.Extensions;
 
@@ -29,5 +30,7 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
+
+app.UseLoggingMiddleware();
 
 app.Run();
