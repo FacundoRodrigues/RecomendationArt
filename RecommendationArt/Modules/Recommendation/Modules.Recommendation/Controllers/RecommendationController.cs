@@ -1,6 +1,9 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
+using Modules.Recommendation.Core.Dto;
+using Modules.Recommendation.Core.Features.CreateRecommendation;
 using Modules.Recommendation.Core.Features.GetAllRecommendations;
+using Modules.Recommendation.Core.Features.GetRecommedationById;
 
 namespace Modules.Recommendation.Controllers
 {
@@ -25,15 +28,37 @@ namespace Modules.Recommendation.Controllers
             return Ok(response.Recommendations);
         }
 
-        [HttpPost]
-        [Route("/recommedations")]
-        public async Task<IActionResult> CreateRecommedationAsync()
+        [HttpGet]
+        [Route("/recommedations/{Id}")]
+        public async Task<IActionResult> GetRecommedationByIdAsync(int Id)
         {
-            var request = new GetAllRecommendationsRequest();
+            var request = new GetRecommedationByIdRequest { Id = Id };
 
             var response = await _mediator.Send(request);
 
-            return Ok(response.Recommendations);
+            return Ok(response.Recommendation);
+        }
+
+        [HttpPost]
+        [Route("/recommedations")]
+        public async Task<IActionResult> CreateRecommedationAsync(CreateRecommendationDto recommendation)
+        {
+            var request = new CreateRecommendationRequest
+            {
+                Title = recommendation.Title,
+                CreatedDate = DateTime.Now,
+                Description = recommendation.Description,
+                JokeRating = recommendation.JokeRating,
+                Occasion = recommendation.Occasion,
+                Platform = recommendation.Platform,
+                TrueRating = recommendation.TrueRating,
+                Url = recommendation.Url,
+                UserId = recommendation.UserId
+            };
+
+            var response = await _mediator.Send(request);
+
+            return Ok(response.Recommendation);
         }
     }
 }

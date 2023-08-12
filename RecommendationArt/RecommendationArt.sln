@@ -7,7 +7,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{75D1D1AB-3A6
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{2D6CF501-37CC-42B0-AF67-FB1C76508EF4}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Recommendation", "Recommendation", "{4DA10ED2-4A70-4E2C-A80C-7E4A7C30EDF0}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Recommendations", "Recommendations", "{4DA10ED2-4A70-4E2C-A80C-7E4A7C30EDF0}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modules.Recommendation", "Modules\Recommendation\Modules.Recommendation\Modules.Recommendation.csproj", "{44D9EF56-C01D-4CBC-81AB-173F1AC2A8BE}"
 EndProject
@@ -17,15 +17,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modules.Recommendation.Infr
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Host", "Host", "{EF5EC322-4650-4B73-82BA-CFD99585DFE7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "API\API.csproj", "{63A8BCE0-6019-4B6E-8A52-BF31E87C608E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API", "API\API.csproj", "{63A8BCE0-6019-4B6E-8A52-BF31E87C608E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{88487E56-411A-4682-A441-1EBE68CA56CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared.Core", "Shared\Shared.Core\Shared.Core.csproj", "{43542A7F-61C6-4D92-B246-E63A5ACC5447}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared.Core", "Shared\Shared.Core\Shared.Core.csproj", "{43542A7F-61C6-4D92-B246-E63A5ACC5447}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared.Infrastructure", "Shared\Shared.Infrastructure\Shared.Infrastructure.csproj", "{87F33619-D3F2-4789-92AF-0D9C00A77577}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared.Infrastructure", "Shared\Shared.Infrastructure\Shared.Infrastructure.csproj", "{87F33619-D3F2-4789-92AF-0D9C00A77577}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared.Models", "Shared\Shared.Models\Shared.Models.csproj", "{A613FC21-33FC-456F-A8A8-074DB8EB8BAA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared.Models", "Shared\Shared.Models\Shared.Models.csproj", "{A613FC21-33FC-456F-A8A8-074DB8EB8BAA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

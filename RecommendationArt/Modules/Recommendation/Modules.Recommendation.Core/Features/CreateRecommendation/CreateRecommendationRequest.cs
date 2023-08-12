@@ -1,8 +1,10 @@
-﻿namespace Modules.Recommendation.Core.Model
+﻿using MediatR;
+using Modules.Recommendation.Core.Model;
+
+namespace Modules.Recommendation.Core.Features.CreateRecommendation
 {
-    public class RecommendationModel
+    public class CreateRecommendationRequest : IRequest<CreateRecommendationResponse>
     {
-        public int Id { get; set; }
         public string Title { get; set; }
         public string Url { get; set; }
         public double TrueRating { get; set; }
@@ -12,5 +14,10 @@
         public string Occasion { get; set; }
         public int UserId { get; set; }
         public DateTime CreatedDate { get; set; }
+    }
+
+    public class CreateRecommendationResponse
+    {
+        public RecommendationModel Recommendation { get; set; }
     }
 }

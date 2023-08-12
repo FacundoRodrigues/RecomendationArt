@@ -1,8 +1,7 @@
-﻿namespace Modules.Recommendation.Core.Model
+﻿namespace Modules.Recommendation.Core.Dto
 {
-    public class RecommendationModel
+    public class CreateRecommendationDto
     {
-        public int Id { get; set; }
         public string Title { get; set; }
         public string Url { get; set; }
         public double TrueRating { get; set; }
