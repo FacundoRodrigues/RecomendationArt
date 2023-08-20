@@ -3,7 +3,7 @@ using Modules.Recommendation.Core.Model;
 
 namespace Modules.Recommendation.Core.Features.CreateRecommendation
 {
-    public class CreateRecommendationRequest : IRequest<CreateRecommendationResponse>
+    public class MakeRecommendationRequest : IRequest<MakeRecommendationResponse>
     {
         public string Title { get; set; }
         public string Url { get; set; }
@@ -16,7 +16,7 @@ namespace Modules.Recommendation.Core.Features.CreateRecommendation
         public DateTime CreatedDate { get; set; }
     }
 
-    public class CreateRecommendationResponse
+    public class MakeRecommendationResponse
     {
         public RecommendationModel Recommendation { get; set; }
     }

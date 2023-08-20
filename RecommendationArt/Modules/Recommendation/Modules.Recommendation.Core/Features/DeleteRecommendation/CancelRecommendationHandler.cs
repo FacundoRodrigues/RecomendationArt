@@ -4,23 +4,18 @@ using Modules.Recommendation.Core.Abstractions;
 
 namespace Modules.Recommendation.Core.Features.DeleteRecommendation
 {
-    public class DeleteRecommendationRequest : IRequest
-    {
-        public int Id { get; set; }
-    }
-
-    public class DeleteRecommendationHandler : IRequestHandler<DeleteRecommendationRequest>
+    public class CancelRecommendationHandler : IRequestHandler<CancelRecommendationRequest>
     {
         private readonly IRecommendationDbContext _context;
 
-        public DeleteRecommendationHandler(IRecommendationDbContext context)
+        public CancelRecommendationHandler(IRecommendationDbContext context)
         {
             _context = context;
         }
 
-        public async Task<Unit> Handle(DeleteRecommendationRequest request, CancellationToken cancellationToken)
+        public async Task<Unit> Handle(CancelRecommendationRequest request, CancellationToken cancellationToken)
         {
-            var recommendation = await _context.Recommendations.FirstOrDefaultAsync(x => x.Id == request.Id);
+            var recommendation = await _context.Recommendations.FirstOrDefaultAsync(x => x.Id == request.Id, cancellationToken: cancellationToken);
 
             if (recommendation == null) throw new NullReferenceException();
 

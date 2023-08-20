@@ -4,16 +4,16 @@ using Modules.Recommendation.Core.Mapping;
 
 namespace Modules.Recommendation.Core.Features.CreateRecommendation
 {
-    public class CreateRecommendationHandler : IRequestHandler<CreateRecommendationRequest, CreateRecommendationResponse>
+    public class MakeRecommendationHandler : IRequestHandler<MakeRecommendationRequest, MakeRecommendationResponse>
     {
         private readonly IRecommendationDbContext _context;
 
-        public CreateRecommendationHandler(IRecommendationDbContext context)
+        public MakeRecommendationHandler(IRecommendationDbContext context)
         {
             _context = context;
         }
 
-        public async Task<CreateRecommendationResponse> Handle(CreateRecommendationRequest request, CancellationToken cancellationToken)
+        public async Task<MakeRecommendationResponse> Handle(MakeRecommendationRequest request, CancellationToken cancellationToken)
         {
             var recommendation = new Entities.Recommendation(request.Title, request.Url, request.TrueRating, request.JokeRating, request.Description, request.Platform, request.Occasion, request.UserId, request.CreatedDate);
 
@@ -21,7 +21,7 @@ namespace Modules.Recommendation.Core.Features.CreateRecommendation
 
             await _context.SaveChangesAsync(cancellationToken);
 
-            return new CreateRecommendationResponse { Recommendation = recommendation.ToModel() };
+            return new MakeRecommendationResponse { Recommendation = recommendation.ToModel() };
         }
     }
 }

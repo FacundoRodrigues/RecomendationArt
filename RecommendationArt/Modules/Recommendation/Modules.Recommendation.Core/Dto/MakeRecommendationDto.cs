@@ -1,6 +1,6 @@
 ﻿namespace Modules.Recommendation.Core.Dto
 {
-    public class CreateRecommendationDto
+    public class MakeRecommendationDto
     {
         public string Title { get; set; }
         public string Url { get; set; }

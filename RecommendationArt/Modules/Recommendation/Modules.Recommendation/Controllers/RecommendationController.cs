@@ -1,4 +1,5 @@
 ﻿using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Modules.Recommendation.Core.Dto;
 using Modules.Recommendation.Core.Features.CreateRecommendation;
@@ -43,9 +44,9 @@ namespace Modules.Recommendation.Controllers
 
         [HttpPost]
         [Route("/recommedations")]
-        public async Task<IActionResult> CreateRecommedationAsync([FromBody] CreateRecommendationDto recommendation, CancellationToken cancellationToken)
+        public async Task<IActionResult> MakeRecommedationAsync([FromBody] MakeRecommendationDto recommendation, CancellationToken cancellationToken)
         {
-            var request = new CreateRecommendationRequest
+            var request = new MakeRecommendationRequest
             {
                 Title = recommendation.Title,
                 CreatedDate = DateTime.Now,
@@ -87,9 +88,9 @@ namespace Modules.Recommendation.Controllers
 
         [HttpDelete]
         [Route("/recommedations/{Id}")]
-        public async Task<IActionResult> DeleteRecommedationAsync(int Id, CancellationToken cancellationToken)
+        public async Task<IActionResult> CancelRecommedationAsync(int Id, CancellationToken cancellationToken)
         {
-            var request = new DeleteRecommendationRequest
+            var request = new CancelRecommendationRequest
             {
                 Id = Id
             };
