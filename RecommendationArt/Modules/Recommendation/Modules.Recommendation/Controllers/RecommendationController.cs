@@ -1,5 +1,4 @@
 ﻿using MediatR;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Modules.Recommendation.Core.Dto;
 using Modules.Recommendation.Core.Features.CreateRecommendation;
